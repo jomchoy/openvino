@@ -244,11 +244,6 @@ Known Issues
 | Description:
 | phi-4-multimodal instruct model isn't functional when converted using optimum-cli as channel-wise one (with -group-size -1) with OpenVINO 2026.0. It's recommended to use for the conversion OV 2025.4/OV 2025.4.1 
 
-| **Component: OpenVINO Runtime**
-| ID: 180693 
-| Description:
-| Qwen3-30B-A3B converted with newer transformers doesn't work, recommend using transformers 4.55.4 for model conversion which was verified and worked.
-
 | **Component: OpenVINO GenAI**
 | ID: 179973  
 | Description:
